@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dancing+Script&family=Foldit&family=Merriweather:ital,wght@1,700&family=Raleway:wght@300&display=swap');
+
+
+.my-bussiness-title{
+	-fx-font-family: 'Foldit', cursive;
+	-fx-font-size: 50px;
+}
+
+.client-label{
+	-fx-font-family: 'Merriweather', serif;
+}

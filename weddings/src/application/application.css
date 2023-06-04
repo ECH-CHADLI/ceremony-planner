@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dancing+Script&family=Merriweather:ital,wght@1,700&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Dancing+Script&family=Foldit&family=Merriweather:ital,wght@1,700&family=Raleway:wght@300&display=swap');
+
+/* Style the table cells */
+.table-cell {
+    -fx-alignment: CENTER; /* Align cell content to center */
+    -fx-padding: 5px;
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Style the column headers */
+.table-header-cell {
+    -fx-font-weight: bold;
+    -fx-padding: 5px;
+    -fx-background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Style the table rows */
+.table-row-cell:odd {
+    -fx-background-color: #f5f5f5; /* Alternate row color */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #a9c9eb; /* Selected row color */
+}
+
+.root {
+    -fx-background-image: url("../resources/background-image/bg_jfx.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+
+.my-table-view .scroll-bar:vertical,
+.my-table-view .scroll-bar:horizontal {
+    -fx-opacity: 0;
+}
+
+.my-title-style{
+	-fx-font-family: 'Dancing Script', cursive;
+	-fx-font-size: 50px;
+	-fx-text-fill: white;
+}
