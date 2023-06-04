@@ -1,4 +1,5 @@
 # ceremony-planner
+#Team: Imane BOUSHABA & Hamza ECH-CHADLI
 Projet JFX pour un systeme de gestion des réservation d'une salle des fetes
 
 Rapport du projet
